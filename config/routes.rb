@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'password_resets/new'
 
   get 'password_resets/edit'
-
+  #homepage path
   root   'static_pages#home'
   get    '/help',    	to: 'static_pages#help' #, as: 'helf' # this allows the route name to be different from the default
   get    '/about',   	to: 'static_pages#about'
@@ -17,9 +17,13 @@ Rails.application.routes.draw do
       get :following, :followers
     end
   end
+  #user account activation path
   resources :account_activations, only: [:edit]
+  #password reset path
   resources :password_resets,     only: [:new, :create, :edit, :update]
+  #user micropost path
   resources :microposts,          only: [:create, :destroy]
+  #user following path
   resources :relationships,       only: [:create, :destroy]
 end
 
