@@ -1,6 +1,6 @@
-# Ruby on Rails Tutorial Twitterlication
+# Ruby on Rails Tutorial Twitter
 
-This is the Twitterlication for
+This is the Twitter for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
