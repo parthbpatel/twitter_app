@@ -1,6 +1,6 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial Twitterlication
 
-This is the sample application for
+This is the Twitterlication for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
